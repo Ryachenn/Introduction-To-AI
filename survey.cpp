@@ -176,7 +176,7 @@ int main() {
     ofstream libertarian("libertarian.txt");
     libertarian.close();
 
-    //Array of 20 questions being asked to the user. The Answer format would be A=republican, B=democrat, C=green, D=libertarian
+    //Array of 20 questions being asked to the user.
     string question[20][5] = {
         {"What is your stance on gun control laws?", "A. Support Second Amendment rights and oppose strict gun control measures.", "B. Advocate for stricter gun control measures, including background checks and bans on assault weapons.", "C. Support strict gun control measures, including bans on assault weapons and high-capacity magazines.", "D. Advocate for the right to own and carry firearms with minimal government regulation."},
         {"How do you propose to address climate change and promote environmental sustainability?", "A. Focus on economic growth and innovation to address environmental challenges without burdensome regulations.", "B. Support government regulations and investments in renewable energy to combat climate change.", "C. Advocate for strong environmental regulations and prioritize sustainability over economic growth.", "D. Believe that free markets and property rights can address environmental issues more effectively than government intervention."},
